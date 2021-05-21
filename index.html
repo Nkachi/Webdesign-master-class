@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdesign master class</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-menu" data-bs-offset="0">
+   <!--menu bar--> 
+   <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top" id="navbar-menu">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#speakers">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--menu ends-->
+  <!--grid intro-->
+  <div class="container-fluid" style="background-color: forestgreen; padding: 100px 0; background-image: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(artem-1.png); background-size: cover; background-position: center center;" id="home">
+    <div class="container">
+        <div class="row">
+        <div class="col text-center text-white">
+           <h1 class="display-1">Web Design Conference</h1> 
+           <p>A One-day Conference About All Things Web Design!</p> 
+           <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now</button>
+            <button type="button" class="btn btn-primary">See Instructors</button>
+          </div>        
+        </div>
+        </div>
+    </div>
+  </div>
+  <!--About section-->
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col-sm-4 order-2 order-sm-1">
+       <h3>Expert Speakers</h3> 
+        <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>  
+        <p>Want to meet the international JavaScript community and share skills with some of the world's top   experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p> 
+
+       <p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>  
+
+      </div>
+      <div class="col-sm-4 order-1 order-sm-1">
+       <h3>About Full Stack Conf</h3>
+       <img src="pdx.jpg" class="img-fluid" alt=""> 	
+       <p>The beautiful city of Lagos, Nigeria will be the host city for Web Design Conference!</p>   
+        <p>Explore the future of Web Design with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>  
+      </div>
+
+      <div class="col-sm-4 order-2 order-sm-1">
+        <h3>What You'll Learn</h3>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <p>HTML: NoSQL database</p>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <p>CSS: Framework for Node</p> 
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <p>WordPress: JavaScript library</p>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div><div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <p>JavaScript: JavaScript environment</p> 
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div></div><div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <p>Bootstrap: Latest version of JavaScript</p>  
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--my comment-->
+  <div class="container" id="speakers">
+      <div class="col text-center"><h1>Instructors</h1></div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="avatar new.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Demola Akinpelu</h5>
+              <p class="card-text">
+                Demola is a web developer and teacher who is passionate about building scalable, data-driven web apps, especially ones that address old problems with new tech!
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="avatar new.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Goke Adeyemi</h5>
+              <p class="card-text">
+                "Goke" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="avatar new.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">David Jolajesu</h5>
+              <p class="card-text">
+                David is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!--schedule-->
+  <div class="container" id="schedule">
+      <div class="col text-center"><h1>Schedule</h1></div>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Keynote: Internet of Things</div>
+            Demola Akinpelu
+          </div>
+          <span class="badge bg-primary rounded-pill">9:00am</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">React Basics</div>
+            Demola Akinpelu
+          </div>
+          <span class="badge bg-primary rounded-pill">10:00am</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Hey, Mongo!</div>
+            David Jolajesu
+          </div>
+          <span class="badge bg-primary rounded-pill">11:00am</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Lunch</div>
+            Free pizza for everyone!
+          </div>
+          <span class="badge bg-primary rounded-pill">12:00pm</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Introducing ES2015</div>
+            David Jolajesu
+          </div>
+          <span class="badge bg-primary rounded-pill">1:00pm</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Getting Started With Redux</div>
+            David Jolajesu
+          </div>
+          <span class="badge bg-primary rounded-pill">2:00pm</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">What's Babel?</div>
+            Goke Adeyemi
+          </div>
+          <span class="badge bg-primary rounded-pill">3:00pm</span>
+        </li>
+      </ol>
+      
+  </div>
+  <!--model-->
+  <div class="container text-center mt-5">
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Don't Miss Out, Rigister Now
+  </button>
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Register for Web design Master Class</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Extra Information-->
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Hurry!</strong>Early bird Registerends in two days.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">First Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div><hr class="mt-5">
+  <!--grid-->
+  <div>
+    <div class="container mt-5">
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <h3>About FVO Academy</h3> 
+         <p>FVO Academy brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p> 
+        </div>
+        <div class="col-4">
+         Stape up-to-date on web Design Conference
+        <div><input type="email" name="" id="" placeholder="email">
+        <button>submit</button></div> 
+        </div>
+      </div>
+    </div>
+  </div><hr class="mt-5">
+  <div>
+    <div class="container mt-5">
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <h3><label for="text" style="color: darkblue;">Community</label></h3>
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Other Master Class
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>  
+        </div>
+        <div class="col-4">
+         (c) 2019 FVO Academy 
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+ 
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
